@@ -1,0 +1,263 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-color: rgb(32, 32, 32);
+
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+ul,li{
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.top{
+    background-color: var(--primary-color)
+    
+}
+
+.top-logo{
+    background-color: rgb(255, 255, 255);
+    padding:30px;
+
+}
+
+.icon{
+    font-size: 20px;
+}
+
+nav{
+    padding-bottom: 10px;
+    
+}
+
+nav ul {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap:120px;
+ 
+}
+
+nav ul li a{
+    color: var(--primary-color);
+    margin-left: 10px;
+    transition: 0.4s;
+
+
+    
+    
+}
+
+nav ul li a:hover {
+    
+    transition: 0.6s;
+    text-decoration: underline;
+    color: rgb(114, 103, 103);
+    
+
+
+}
+
+
+nav ul li:last-child >a{
+    background-color: gray;
+    padding: 19px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 8px;
+
+    
+
+}  
+
+
+nav ul li:last-child > a:hover{
+    color: black;
+
+}
+  
+
+
+.container{
+    max-width: 2000px;
+
+    margin:0 auto;
+
+}
+
+header .top{
+    padding: 15px 15px;
+}
+
+header .top > div{
+
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+header .top > div span{
+    text-decoration: underline;
+    cursor:pointer;
+
+}
+
+
+header .top-logo i{
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px;
+    cursor:pointer;
+    transition: 0.2s;
+
+}
+
+
+
+header .top-logo i:hover{
+    background-color: var(--primary-color);
+    color:white;
+}
+
+
+  
+
+/* main */
+.container-body{
+    max-width: 2000px;
+}
+
+.main{
+    width: 100%;
+    
+
+
+}
+
+.main .main-pic{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/Project3/Pics/Pno-Wsky.jpg) no-repeat center center/cover;
+    width: 100%;
+    height:100vh;
+   
+    
+
+}
+
+
+main div h1{
+    font-size: 45px;
+    color: rgb(168, 168, 168);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+main div p{
+    font-size: 20px;
+    color: rgb(255, 245, 245);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 28px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+main div a{
+    color: rgb(126, 126, 126);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+.main div a {
+    background-color: rgb(105, 99, 99);
+    color:azure;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.main div a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+   
+
+.under-pic{
+    /* background-color: rgb(172, 168, 168); */
+    height: 150px;
+    padding: 53px;
+    gap: 40px;
+    line-height: 32px;
+    margin: 51px;
+    text-align: center;
+    font-style: italic;
+    
+
+}
+
+.under-pic i{
+    font-size: 30px;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 20px;
+    transition: 0.4s;
+    
+}
+
+.under-pic>.child{
+    background-color: grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+
+}
+
+
+.under-pic i:hover{
+    background-color: rgb(179, 169, 169);
+    color: black;
+    transition: 0.4s;
+}
+
